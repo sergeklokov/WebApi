@@ -1,3 +1,5 @@
+
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,5 +9,6 @@ import { Component } from '@angular/core';
   styleUrls: []
 })
 export class AppComponent {
-  title = 'Ang8';
+  //title = 'Serge\'s Angular 8 Demo application';
+  title = 'Blah!!!';
 }
