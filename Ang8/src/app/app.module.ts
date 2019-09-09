@@ -1,7 +1,8 @@
 import { PaymentDetailService } from './shared/payment-detail.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms'
+import { FormsModule } from '@angular/forms'; // imported for imorts array below
+
 import { AppComponent } from './app.component';
 import { PaymentDetailsComponent } from './payment-details/payment-details.component';
 import { PaymentDetailComponent } from './payment-details/payment-detail/payment-detail.component';

@@ -39,4 +39,6 @@ rxjs                         6.4.0
 Loosely based on tutorial: 
 Asp.Net Core Web API and Angular 7 CRUD
 https://www.youtube.com/watch?v=fom80TujpYQ
+https://github.com/CodAffection/Asp.Net-Core-Web-API-and-Angular-7-CRUD
+
 
