@@ -2,6 +2,7 @@ import { PaymentDetailService } from './shared/payment-detail.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'; // imported for imorts array below
+import { HttpClientModule } from "@angular/common/http";
 
 import { AppComponent } from './app.component';
 import { PaymentDetailsComponent } from './payment-details/payment-details.component';
@@ -17,7 +18,8 @@ import { PaymentDetailListComponent } from './payment-details/payment-detail-lis
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [PaymentDetailService],
   bootstrap: [AppComponent]
